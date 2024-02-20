@@ -28,7 +28,7 @@ It is better to use hugepages for NIC because of IOMMU. You can use option 'use_
 
 ```bash
 meson build -Duse_hugepage=enabled
-meson compile -C build
+meson install -C build
 ```
 
 ### Play
